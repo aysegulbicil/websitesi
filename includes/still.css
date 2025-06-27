@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8eee0;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;       /* Ortalamak için */
+  padding: 15px 30px;
+  background-color: #f8eee0;
+  border-bottom: 2px solid #f6b25b;
+  gap: 60px;                     /* Logo, menü ve buton arası boşluk */
+  flex-wrap: wrap;               /* Geniş ekran dışı durumlar için */
+}
+
+.logo img {
+  height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #d16a5d;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 6px 15px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+
