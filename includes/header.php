@@ -6,21 +6,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Header</title>
-  <link rel="stylesheet" href="includes/still.css" /> 
+ <link rel="stylesheet" href="/websitesi/includes/still.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header class="main-header">
     <div class="logo">
-    <img src="includes/aa.jpg" alt="Clarity Logo" />
+    <img src="/websitesi/includes/aa.jpg" alt="Clarity Logo" />
     </div>
     <nav class="nav-links">
-  <a href="anasayfa.html">Anasayfa</a>
-  <a href="hakkimizda.html">Hakkımızda</a>
-  <a href="iletisim.html">İletişim</a>
-  <a href="blog.html">Blog</a>
+  <a href="anasayfa.php">Anasayfa</a>
+  <a href="hakkimizda.php">Hakkımızda</a>
+ <a href="/websitesi/pages/iletisim.php">İletişim</a>
+
+  <a href="blog.php">Blog</a>
 </nav>
     <div class="header-actions">
-      <a href="bos.php" class="login-btn">Giriş</a>
+      <a href="/websitesi/pages/giris.php" class="login-btn">Giriş</a>
     </div>
   </header>
 
