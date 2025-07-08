@@ -15,11 +15,11 @@
     <img src="/websitesi/includes/aa.jpg" alt="Clarity Logo" />
     </div>
     <nav class="nav-links">
-  <a href="anasayfa.php">Anasayfa</a>
-  <a href="hakkimizda.php">Hakkımızda</a>
+   <a href="/websitesi/pages/home.php">Anasayfa</a>
+  <a href="/websitesi/pages/hakkında.php">Hakkımızda</a>
  <a href="/websitesi/pages/iletisim.php">İletişim</a>
 
-  <a href="blog.php">Blog</a>
+  <a href="/websitesi/pages/blog.php">Blog</a>
 </nav>
     <div class="header-actions">
       <a href="/websitesi/pages/giris.php" class="login-btn">Giriş</a>

@@ -208,6 +208,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }, 5000);
 </script>
-
+<?php include '../includes/footer.php'; ?>
 </body>
 </html>
